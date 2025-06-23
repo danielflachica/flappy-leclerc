@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222831;
+}
+
+div#container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ 
+canvas#gameCanvas {
+    display: block;
+    touch-action: none; /* helps with mobile gestures */
+    border: 1px dotted red;
+}
